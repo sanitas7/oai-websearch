@@ -12,6 +12,12 @@ Install directly from GitHub:
 npm install -g github:sanitas7/oai-websearch
 ```
 
+If the above command doesn't work in your environment, try:
+
+```bash
+npm install -g https://github.com/sanitas7/oai-websearch/tarball/master
+```
+
 ## Requirements
 
 - Node.js 18 or later
