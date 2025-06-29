@@ -1,0 +1,36 @@
+{
+  "name": "oai-websearch",
+  "version": "0.1.0",
+  "description": "CLI tool for searching with OpenAI's web search capabilities",
+  "type": "module",
+  "bin": {
+    "oai-websearch": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "node dist/index.js",
+    "dev": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sanitas7/oai-websearch.git"
+  },
+  "keywords": ["openai", "web-search", "cli", "ai"],
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/sanitas7/oai-websearch/issues"
+  },
+  "homepage": "https://github.com/sanitas7/oai-websearch#readme",
+  "dependencies": {
+    "commander": "^14.0.0",
+    "openai": "^5.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.7",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
