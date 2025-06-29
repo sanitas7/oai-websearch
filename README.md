@@ -12,12 +12,6 @@ Install directly from GitHub:
 npm install -g github:sanitas7/oai-websearch
 ```
 
-### Using mise
-
-```bash
-mise use -g npm:github:sanitas7/oai-websearch
-```
-
 ## Usage
 
 ### Basic Usage
