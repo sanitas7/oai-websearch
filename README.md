@@ -12,6 +12,12 @@ Install directly from GitHub:
 npm install -g github:sanitas7/oai-websearch
 ```
 
+## Requirements
+
+- Node.js 18 or later
+- OpenAI API key with access to the o3 model
+- Web search tool access (separate pricing applies)
+
 ## Usage
 
 ### Basic Usage
